@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Spent</title>
+
+    <!-- Font Aweasome -->
+    <script src="https://kit.fontawesome.com/bd053c325a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="ask-for-name">
+        <div class="ask-for-name-box">
+            <input class="ask-for-name__input" type="text" placeholder="Enter session name">
+            <buttons class="ask-for-name__button ask-for-name__enter-name">
+                Create
+            </buttons>
+            <buttons class="ask-for-name__button ask-for-name__cancel">
+                Cancel
+            </buttons>
+        </div>
+    </div>
+
+    <div class="edit-panel">
+        <!-- <div class="rename-session">
+            <i class="fa-solid fa-pen"></i>
+        </div> -->
+        
+        <div class="remove-session">
+            <i class="fa-solid fa-skull-crossbones"></i>
+        </div>
+    
+    </div>
+
+    <div class="container">
+        <div class="left-box">
+            <ul class="sessions">
+                <!-- <li class="session-item session session-dark" id="session-0">
+                    Test
+                </li> -->
+                <!-- <li class="session session-light">Test 2</li> -->
+
+                <li class="session-item session-add">
+                    <i class="fa-solid fa-plus"></i>
+                </li>
+            </ul>
+        </div>
+
+        <div class="about">
+            <div class="about-info">
+                <h1 class="about-info-text total-time">Total time spent: <span
+                        class="about-info-value total-time-spent">10 h</span></h1>
+                <h1 class="about-info-text current-time">Current session: <span
+                        class="about-info-value current-time-spent">0 min</span></h1>
+            </div>
+
+            <div class="about-controls">
+                <div class="about-buttons">
+                    <button class="about-button start-button">Start</button>
+                    <button class="about-button pause-button">Pause</button>
+                    <button class="about-button finish-button">Finish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
